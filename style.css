@@ -1,0 +1,451 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+ 
+@font-face {
+ font-family: myFont;
+ src: url(winner\ sans.ttf);
+}
+
+@font-face {
+ font-family: newFont;
+ src: url(Komu\ A\ Regular.ttf);
+}
+ 
+@font-face {
+ font-family: Estricta Font;
+ src: url(Estricta\ Light.otf);
+}
+
+#container{
+ width: 100%;
+ height: max-content;
+ background-color: #fff5ea;
+}
+ 
+.container {
+ font-family: myFont;
+ font-weight: bold;
+ font-size: 48px;
+ display: flex;
+ flex-direction: column;
+ padding: 20px;
+ padding-top: 40px;
+ margin-left: 50px;
+}
+ 
+.original {
+ margin-bottom: -10px;
+ font-family: myFont;
+}
+
+.reflection {
+ transform: scaleY(-1); 
+ opacity: 1.5;          
+ background: linear-gradient(to bottom, rgba(0,0,0,0.5), transparent);
+ background-clip: text;
+ color: transparent;
+ font-family: myFont;
+}
+ 
+.header{
+ display: flex;
+ flex-direction: row;
+}
+ 
+.nav-links > a{
+ text-decoration: none;
+ font-family: myFont;
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: black;
+}
+ 
+.nav-links{
+ gap: 5rem;
+ display: flex;
+ align-items: center;
+ margin-left: 550px;
+}
+ 
+.becomePatreon{
+ width: 250px;
+ height: 50px;
+ color: #fff5ea;
+ border-radius: 12px;
+ background-color: black;
+ text-align: center;
+ display: block;
+ cursor: pointer;
+ padding-top: 4px;
+ font-size: 1.5rem;
+ font-weight: 550;
+ font-family: myFont;
+}
+ 
+.main-content{
+ font-family: myFont;
+ display: flex;
+ flex-direction: row;
+}
+ 
+.admin-name{
+ font-size: 13rem;
+ font-weight: 500;
+ line-height: 13rem;
+ color: #040f20;
+ margin-bottom: 20px;
+ font-family: newFont;
+}
+ 
+.about{
+ font-size: 1.2rem;
+ line-height: 25px;
+ text-align: justify;
+ margin-top: 0;
+ font-family: Estricta Font;
+}
+ 
+.about-content{
+ margin-right: 160px;
+ margin-left: 60px;
+}
+ 
+.socials-1, .socials-2, .socials-3{
+ margin-left: 20px;
+ cursor: pointer;
+}
+
+.socials{
+ margin-top: 30px;
+}
+ 
+.image{
+ width: 500px;
+ height: 600px;
+ border-radius: 30px;
+ background-position: right;
+}
+ 
+button{
+ display: block;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ width: 430px;
+ height: fit-content;
+ background-color: #040f20;
+ color: white;
+ border-radius: 11px;
+ font-size: 1.7rem;
+ font-weight: 700;
+ border: none;
+ cursor: pointer;
+ font-family: myFont;
+ text-align: center;
+ padding: 0.7rem 1.5rem 0.5rem 1.5rem;
+}
+ 
+.courseButton > a{
+ display: block;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ width: 300px;
+ height: fit-content;
+ background-color: #040f20;
+ color: white;
+ border-radius: 11px;
+ font-size: 1.7rem;
+ border: none;
+ text-decoration: none;
+ cursor: pointer;
+ font-family: myFont;
+ text-align: center;
+ font-weight: 600;
+ padding: 0.7rem 1.5rem 0.5rem 1.5rem;
+}
+
+input{
+ display: block;
+ font-family: myFont;
+ font-size: 1.3rem;
+ background-color: transparent;
+ border: none;
+ border-radius: 0;
+ padding: 0.5rem 0;
+ margin: 1rem 0;
+}
+ 
+.input{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 1rem;
+ width: 150px;
+}
+
+.input > input{
+ border-bottom: 2px solid #040f20;
+}
+ 
+.course{
+ font-family: myFont;
+ background-color: white;
+ margin: 9rem 3rem;
+ padding: 2rem;
+ border-radius: 11px;
+ display: grid;
+ width: 1250px;
+ height: 200px;
+ grid-template-columns: 4fr 1fr;
+ align-items: center;
+ justify-content: center;
+}
+ 
+.courseBadge > img{
+ width: 25px;
+ height: 27px;
+}
+ 
+.courseBadge{
+ margin-bottom: 0.6rem;
+ width: fit-content;
+ display: flex;
+ grid-template-columns: 1fr 4fr;
+ gap: 0px 6px;
+ align-items: center;
+}
+ 
+.courseBadge > h3{
+ color: #f46095;
+ font-size: 1.2rem;
+}
+
+.courseBox > h1{
+ font-size: 2.4rem;
+ font-weight: 900;
+ color: #040f20;
+}
+ 
+.courseBox > h3{
+ font-size: 1.1rem;
+ color: #040f20;
+ font-family: Estricta Font;
+}
+ 
+.statistics-container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 40px 20px;
+ display: flex;
+ justify-content: space-between;
+ gap: 30px;
+ display: flex;
+ flex-direction: row;
+ background-color: #0a1219;
+ border-radius: 20px;
+ color: white;
+ font-family: myFont;
+}
+ 
+.statistic-box {
+ flex: 1;
+ text-align: center;
+ padding: 20px 10px;
+}
+ 
+.icon {
+ width: 50px;
+ height: 50px;
+ margin-bottom: 20px;
+ stroke: white;
+ fill: none;
+ stroke-width: 2;
+}
+ 
+.statistic-title {
+ font-size: 2.5rem;
+ font-weight: bold;
+ margin-bottom: 15px;
+ line-height: 1.2;
+ text-transform: uppercase;
+ font-family: myFont;
+}
+ 
+.statistic-description {
+ font-size: 1rem;
+ line-height: 1.6;
+ color: #b0b0b0;
+ margin-bottom: 25px;
+}
+ 
+.statistic-button {
+ display: inline-block;
+ padding: 12px 24px;
+ background-color: white;
+ color: #0a1219;
+ text-decoration: none;
+ border-radius: 5px;
+ font-weight: bold;
+ text-transform: uppercase;
+ font-size: 0.9rem;
+ transition: all 0.3s ease;
+}
+
+.statistic-button:hover {
+ background-color: #f0f0f0;
+ transform: translateY(-2px);
+}
+ 
+.aboutMe{
+ display: grid;
+ grid-template-columns: 2.4fr 3fr;
+ gap: 3rem;
+ padding: 3rem 0;
+}
+
+.aboutMe-text{
+ font-family: myFont;
+ padding-left: 80px;
+ padding-right: 50px;
+ color: #040f20;
+}
+
+.aboutMe-text > a{
+ display: block;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ width: 350px;
+ height: fit-content;
+ background-color: #040f20;
+ color: white;
+ border-radius: 11px;
+ font-size: 1.7rem;
+ border: none;
+ cursor: pointer;
+ font-family: myFont;
+ text-align: center;
+ padding: 0.7rem 1.5rem 0.5rem 1.5rem;
+}
+
+.aboutMe-text > h2{
+ margin-bottom: 4rem;
+ font-size: 1.5rem;
+ line-height: 2rem;
+ text-align: justify;
+ font-family: Estricta Font;
+ font-weight: 200;
+}
+
+.aboutMe-text > h1{
+ font-size: 1.8rem;
+ font-family: Estricta Font;
+}
+
+.image2{
+ width: 600px;
+ height: 450px;
+ border-radius: 20px;
+ background-position: right;
+}
+
+.aboutMe-text > h2 > a{
+ font-weight: bolder;
+ color: #f46095;
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+.footer{
+ display: flex;
+ flex-direction: row;
+ background: #040f20 url(./Assets/unknown_265039063_334531454771840_2009519706384335644_n-1-removebg-preview.png);
+ background-size: 60%;
+ background-repeat: no-repeat;
+ height: fit-content;
+ width: 1250px;
+ margin-left: 50px;
+ margin-bottom: 50px;
+ border-radius: 33px;
+ padding: 3rem 4rem;
+ padding-top: 24%;
+ gap: 5rem;
+ background-position: 135% 50%;
+ background-repeat: no-repeat;
+}
+
+input{
+ display: flex;
+ flex-direction: column;
+ font-family: myFont;
+ font-size: 1.3rem;
+ background-color: transparent;
+ border: none;
+ border-radius: 0;
+ padding: 0.5rem 0;
+ margin: 1rem 0;
+}
+ 
+.input2{
+ border-bottom: 2px solid white;
+ display: flex;
+ flex-direction: column;
+}
+
+.footer-btn{
+ color: #040f20;
+ background-color: white;
+}
+
+.footerText > h1{
+ color: white;
+ font-family: myFont;
+ font-size: 2.4rem;
+ font-weight: lighter;
+}
+
+.footerText > p{
+ color: white;
+ font-family: myFont;
+ font-size: 1.3rem;
+}
+
+.infoBox > h1{
+ color: white;
+ font-family: myFont;
+ font-size: 2.4rem;
+ font-weight: lighter;
+}
+
+.infoBox > p{
+ font-size: 1.4rem;
+ color: white;
+ margin-top: 0.5rem;
+ font-family: myFont;
+ line-height: 1.5;
+ text-align: inherit;
+}
+
+.infoBox > a{
+ color: white;
+ font-family: myFont;
+ font-size: 1.5rem;
+}
+
+.findMe > h1{
+ color: white;
+ font-size: 2.4rem;
+ font-family: myFont;
+ font-weight: lighter;
+}
+
+.socials2{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 3rem;
+ margin-top: 10px;
+}
+
+.socials2 > img{
+ cursor: pointer;
+}
