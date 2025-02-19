@@ -9,6 +9,16 @@
  src: url(winner\ sans.ttf);
 }
 
+@font-face {
+ font-family: newFont;
+ src: url(Komu\ A\ Regular.ttf);
+}
+
+@font-face {
+ font-family: Estricta Font;
+ src: url(Estricta\ Light.otf);
+}
+
 #container{
  height: fit-content;
  background: linear-gradient(235.7deg, rgb(255, 236, 216) 0.95%, rgba(255, 134, 0, 0.97) 97.34%);
@@ -100,13 +110,13 @@ input{
 }
 
 .registerationSection-txt > h1{
- font-family: myFont;
- font-size: 5rem;
- font-weight: 100;
+ font-family: newFont;
+ font-size: 5.5rem;
+ font-weight: 500;
 }
 
 .registerationSection-txt > h3{
- font-family: myFont;
+ font-family: Estricta Font;
  font-size: 1.2rem;
  margin-top: 20px;
  line-height: 1.5;
