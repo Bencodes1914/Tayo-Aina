@@ -386,7 +386,7 @@ input{
  margin: 1rem 0;
 }
  
-.input2{
+.input2 > input{
  border-bottom: 2px solid white;
  display: flex;
  flex-direction: column;
