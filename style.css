@@ -41,6 +41,10 @@
  font-family: myFont;
 }
 
+a{
+ text-decoration: none;
+}
+
 .shadow {
  transform: scaleY(-1); 
  opacity: 1.5;          
