@@ -89,6 +89,8 @@
  border-radius: 11px;
  top: 100px;
  margin-top: -20%;
+ opacity: 0.75;
+ z-index: 3;
 }
 
 .input2{
