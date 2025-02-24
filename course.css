@@ -20,7 +20,7 @@
 }
 
 #container{
- height: fit-content;
+ height: 800px;
  background: linear-gradient(235.7deg, rgb(255, 236, 216) 0.95%, rgba(255, 134, 0, 0.97) 97.34%);
 }
 
@@ -78,8 +78,9 @@
  width: 90%;
  margin: 0 auto;
  margin-top: 50px;
- height: fit-content;
+ height: 550px;
  background-color: white;
+ margin-bottom: 50px;
  border-radius: 13px;
 }
 
