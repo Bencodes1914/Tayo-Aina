@@ -87,6 +87,11 @@ a{
  font-weight: 550;
  font-family: myFont;
 }
+
+.becomePatreon:hover{
+ background-color: #040f20;
+ color: white;
+}
  
 .main-content{
  font-family: myFont;
@@ -279,6 +284,7 @@ input{
  font-size: 1rem;
  line-height: 1.6;
  color: #b0b0b0;
+ text-align: left;
  margin-bottom: 25px;
 }
  
